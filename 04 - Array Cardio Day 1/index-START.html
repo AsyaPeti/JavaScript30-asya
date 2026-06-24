@@ -79,15 +79,18 @@
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
     
     // For the DevTools console on the webpage in the task
-    const div = document.querySelector(".mw-category.mw-category-columns");
-    const liArr = Array.from(div.querySelectorAll("li"));
+    /*  const div = document.querySelector(".mw-category.mw-category-columns");
+        const liArr = Array.from(div.querySelectorAll("li"));
     
-    console.log(liArr
-      .map((li) => li.textContent)
-      .filter((name) => name.includes("de")));
+        console.log(liArr
+          .map((li) => li.textContent)
+          .filter((name) => name.includes("de"))); */
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+
+    // Sort the array of people using the default algorithm
+    console.log(people.sort());
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
