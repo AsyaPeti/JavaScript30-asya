@@ -52,9 +52,14 @@
     // Find the comment with this ID
 
     // Show the index for comment id 823423
-    console.log(comments.findIndex((comment) => comment.id == 823423));
+    let index = comments.findIndex((comment) => comment.id == 823423);
+    console.log(index);
 
     // delete the comment with the ID of 823423
+
+    // Delete comment id 823423
+    comments.splice(index, 1);
+    console.table(comments);
 
   </script>
 </body>
